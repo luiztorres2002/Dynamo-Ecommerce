@@ -1,0 +1,6 @@
+@Dynamo_Ecommerce_HostAddress = http://localhost:5133
+
+GET {{Dynamo_Ecommerce_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
