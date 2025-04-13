@@ -2,7 +2,7 @@
 
 namespace Dynamo_Ecommerce.Models.Shopping
 {
-    internal class ShoppingSession
+    public class ShoppingSession
     {
         public int Id { get; set; } 
         public User User { get; set; }

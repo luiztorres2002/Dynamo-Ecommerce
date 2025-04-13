@@ -2,7 +2,7 @@
 
 namespace Dynamo_Ecommerce.Models.UserModel
 {
-    internal class UserAddress
+    public class UserAddress
     {
         public int Id { get; set; }
         public User user { get; set; }

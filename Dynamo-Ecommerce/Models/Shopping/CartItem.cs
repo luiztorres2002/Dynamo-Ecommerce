@@ -2,7 +2,7 @@
 
 namespace Dynamo_Ecommerce.Models.Shopping
 {
-    internal class CartItem
+    public class CartItem
     {
         public int Id { get; set; }
         public ShoppingSession ShoppinSession { get; set; } 

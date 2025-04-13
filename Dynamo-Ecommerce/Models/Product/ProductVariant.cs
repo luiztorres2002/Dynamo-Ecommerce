@@ -1,6 +1,6 @@
 ﻿namespace Dynamo_Ecommerce.Models.Product
 {
-    internal class ProductVariant
+    public class ProductVariant
     {
         public int Id { get; set; } 
         public Product? Product { get; set; }

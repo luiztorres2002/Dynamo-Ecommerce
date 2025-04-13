@@ -1,6 +1,6 @@
 ﻿namespace Dynamo_Ecommerce.Models.Shopping
 {
-    internal class PaymentDetails
+    public class PaymentDetails
     {
         public int Id { get; set; }
         public Order? order { get; set; }

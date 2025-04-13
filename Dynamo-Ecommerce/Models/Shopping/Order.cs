@@ -2,7 +2,7 @@
 
 namespace Dynamo_Ecommerce.Models.Shopping
 {
-    internal class Order
+    public class Order
     {
         public int Id { get; set; }
         public User User { get; set; } 

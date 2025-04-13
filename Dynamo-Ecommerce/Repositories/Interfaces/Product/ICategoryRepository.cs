@@ -1,6 +1,12 @@
-﻿namespace Dynamo_Ecommerce.Repositories.Interfaces.Product
+﻿using Dynamo_Ecommerce.DTOs.Product.Category;
+using Dynamo_Ecommerce.Models.Product;
+
+namespace Dynamo_Ecommerce.Repositories.Interfaces.Product
 {
-    internal interface ICategoryRepository
+    public interface ICategoryRepository
     {
+        public CategoryResponseDTO GetCategory(int id);
+        public CategoryResponseDTO GetCategoryByName(string name); 
+        public IEnumerable<CategoryResponseDTO> GetAllCategories();
     }
 }

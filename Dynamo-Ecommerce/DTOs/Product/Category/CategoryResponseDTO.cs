@@ -1,6 +1,6 @@
-﻿namespace Dynamo_Ecommerce.Models.UserModel
+﻿namespace Dynamo_Ecommerce.DTOs.Product.Category
 {
-    public class PaymentType
+    public class CategoryResponseDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

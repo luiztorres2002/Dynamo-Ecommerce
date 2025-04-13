@@ -1,6 +1,6 @@
 ﻿namespace Dynamo_Ecommerce.Models.Product
 {
-    internal class Image
+    public class Image
     {
         public int Id { get; set; } 
         public Product Product { get; set; }
